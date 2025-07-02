@@ -48,7 +48,7 @@ A política criada concede à função Lambda as permissões necessárias para:
 ### 1. Crie a política IAM personalizada
 
 Nome: `PoliticaTerminarEC2-TiagoMascarenhas`  
-(Ver `policy.json` se disponível)
+
 
 ### 2. Crie a role IAM
 
@@ -83,11 +83,13 @@ Expressão de agendamento sugerida: `rate(12 hours)` ou `rate(5 minutes)`
 
 ---
 
-## 📸 Prints do Projeto (opcional)
+## 📸 Prints do Projeto 
 
 Você pode visualizar abaixo algumas imagens do projeto funcionando no console AWS:
 
-- Criação de política IAM
-- Role configurada
-- Função Lambda com código
-- EventBridge configurado
+![image](https://github.com/user-attachments/assets/60a01078-d2ad-44af-a44f-1fcd52c4acb7)
+![image](https://github.com/user-attachments/assets/ac1ee9d5-c0e1-4500-b38e-8b1a37a94a32)
+![image](https://github.com/user-attachments/assets/231d4029-9d7d-42c6-8e39-d80776fac109)
+
+
+
